@@ -22,7 +22,7 @@ if [[ $1 != "deploy" ]] ; then
   STRATEGY=""
 fi
 
-sh -c "flyctl $* $STRATEGY"
+sh -c "flyctl $*"
 
 ACTUAL_EXIT="$?"
 
